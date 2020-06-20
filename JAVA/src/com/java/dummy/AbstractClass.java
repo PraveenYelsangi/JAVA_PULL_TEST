@@ -21,6 +21,12 @@ abstract class Pou{
 		 System.out.println("Vision Class");
 	 }
  }
+ 
+ class Visionary extends Pou{
+	 void office(){
+		 System.out.println("Visionary Class");
+	 }
+ }
 
 class AbstractClass{
 	public static void main(String[] args) {
